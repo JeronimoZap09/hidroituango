@@ -1,0 +1,50 @@
+{
+  "proyecto": {
+    "nombre": "Central Hidroeléctrica Ituango",
+    "ubicacion": "Río Cauca, Antioquia, Colombia",
+    "capacidad_mw": 2400,
+    "descripcion": "La Central Hidroeléctrica Ituango es la obra de generación de energía más grande de Colombia, diseñada para cubrir cerca del 17% de la demanda energética nacional mediante el aprovechamiento del caudal del río Cauca."
+  },
+  "personal": [
+    {
+      "id": 1,
+      "nombre": "Carlos Mario Restrepo",
+      "cargo": "Ingeniero Jefe de Turbinas",
+      "tipo": "Ingeniero",
+      "area": "Mantenimiento Electromecánico",
+      "funcion": "Supervisa el montaje, calibración y pruebas de rodamiento de las unidades generadoras en la casa de máquinas subterránea."
+    },
+    {
+      "id": 2,
+      "nombre": "Valeria Jaramillo",
+      "cargo": "Ingeniera Ambiental",
+      "tipo": "Ingeniero",
+      "area": "Gestión Socioambiental",
+      "funcion": "Lidera los monitoreos de calidad del agua del río Cauca y coordinar los programas de reforestación e ictiofauna en la cuenca."
+    },
+    {
+      "id": 3,
+      "nombre": "Mateo Arango",
+      "cargo": "Técnico Electromecánico",
+      "tipo": "Empleado",
+      "area": "Operaciones",
+      "funcion": "Realiza inspecciones técnicas diarias en los sistemas de refrigeración de transformadores y tableros de control."
+    },
+    {
+      "id": 4,
+      "nombre": "Luisa Fernanda Gómez",
+      "cargo": "Coordinadora SST",
+      "tipo": "Empleado",
+      "area": "Seguridad y Salud en el Trabajo",
+      "funcion": "Supervisa el cumplimiento estricto de los protocolos de seguridad industrial de contratistas y personal operativo en presa."
+    },
+    {
+      "id": 5,
+      "nombre": "Andrés Felipe Tobón",
+      "cargo": "Ingeniero Geotécnico",
+      "tipo": "Ingeniero",
+      "area": "Infraestructura y Presa",
+      "funcion": "Monitorea la estabilidad de los taludes, galerías de filtración y la instrumentación de la estructura del vertedero."
+    }
+  ]
+}
