@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyecto Hidroituango - Personal y Gestión</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>Central Hidroeléctrica Ituango</h1>
+    <nav>
+      <a href="#inicio">Inicio</a>
+      <a href="#personal">Personal e Ingenieros</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- SECCIÓN INFORMACIÓN BÁSICA DE HIDROITUANGO -->
+    <section id="inicio" class="section-card">
+      <h2>Información del Proyecto</h2>
+      <p>
+        La Central Hidroeléctrica Ituango es el proyecto de generación de energía más grande en la historia de Colombia. 
+        Ubicado sobre el río Cauca en el departamento de Antioquia, el complejo aprovecha el cauce para generar aproximadamente 
+        el 17% de la demanda de energía eléctrica del país.
+      </p>
+      <ul>
+        <li><strong>Ubicación:</strong> Valle del río Cauca (Antioquia)</li>
+        <li><strong>Capacidad Instalada:</strong> 2,400 MW cuando operen sus 8 unidades</li>
+        <li><strong>Tipo de Generación:</strong> Hidroeléctrica a filo de agua con embalse de regulación</li>
+      </ul>
+    </section>
+
+    <!-- SECCIÓN PERSONAL E INGENIEROS -->
+    <section id="personal" class="section-card">
+      <h2>Equipo de Trabajo</h2>
+      <p>Conoce al personal clave responsable del funcionamiento, mantenimiento y sostenibilidad de la obra.</p>
+
+      <div class="filter-controls">
+        <button onclick="filtrarPersonal('Todos')">Todos</button>
+        <button onclick="filtrarPersonal('Ingeniero')">Ingenieros</button>
+        <button onclick="filtrarPersonal('Empleado')">Empleados</button>
+      </div>
+
+      <div id="grid-personal" class="grid-container">
+        <!-- Tarjetas dinámicas cargadas desde JS -->
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 - Central Hidroeléctrica Ituango. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
