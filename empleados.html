@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyecto Hidroituango - Personal e Ingenieros</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <div class="header-container">
+      <h1>Central Hidroituango</h1>
+      <nav>
+        <a href="index.html">Inicio</a>
+        <a href="empleados.html" class="active-link">Personal e Ingenieros</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section-card">
+      <h2>Equipo de Trabajo y Especialistas</h2>
+      <p>Directorio técnico del personal operativo, ingenieros de obra, líderes ambientales y especialistas en seguridad encargados del funcionamiento del proyecto.</p>
+
+      <div class="filter-controls">
+        <button class="active" onclick="filtrarPersonal('Todos', this)">Todos</button>
+        <button onclick="filtrarPersonal('Ingeniero', this)">Ingenieros</button>
+        <button onclick="filtrarPersonal('Empleado', this)">Empleados</button>
+      </div>
+
+      <div id="grid-personal" class="grid-container">
+        <!-- Carga dinámica mediante JS -->
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 - Central Hidroeléctrica Ituango. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

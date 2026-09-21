@@ -1,0 +1,16 @@
+{
+  "name": "hidroituango",
+  "version": "1.0.0",
+  "description": "Proyecto Central Hidroeléctrica Ituango",
+  "main": "Server/index.js",
+  "scripts": {
+    "start": "node Server/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
